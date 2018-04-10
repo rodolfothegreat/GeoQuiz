@@ -37,23 +37,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-         <ImageButton
+        <ImageButton
             android:id="@+id/prev_button"
-            android:drawablePadding="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
             app:srcCompat="@mipmap/arrow_left" />
 
         <ImageButton
             android:id="@+id/next_button"
-            android:drawablePadding="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
             app:srcCompat="@mipmap/arrow_right" />
 
 
     </LinearLayout>
-
 
 
 </LinearLayout>
